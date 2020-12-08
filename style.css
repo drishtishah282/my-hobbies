@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background: linear-gradient(#ffc4c4 20%, #00f7ff 100%);
+  background-repeat: no-repeat;
+}
+img {
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+}
+h1 {
+  text-shadow: 3px 2px #ffd6d4;
+  font-size: 50px;
+text-align:center;
+}
+p {
+  font-size: 30px;
+  color: black;
+  font-family: Dishonorable Mention;
+}
+#bio {
+  padding: 30px;
+  font-size: 25;
+  text-align: center;
+}
+.line {
+  height: 6px;
+  width: 700px;
+  background-color: black;
+  margin: 8px auto;
+}
+
+.menu {
+  position: absolute;
+  font-size: 30px;
+  list-style: none;
+  top: 10px;
+  right: 250px;
+  cursor: pointer;
+  font-family: "Ranchers", cursive;
+  z-index: 10;
+  text-align:center;
+}
+#intro {
+  z-index: 9;
+  top: 100px;
+}
+.list {
+  float: left;
+  padding: 20px;
+  color: black;
+}
+.list:hover {
+  background-color: #4dd0e1;
+}
